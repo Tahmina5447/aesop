@@ -7,12 +7,12 @@ const Footer = () => {
         <div className='bg-info px-10 pt-20 pb-8'>
             <div className='flex text-primary'>
                 <div className='w-2/5 mr-8'>
-                    <div className='flex items-center border border-primary rounded'>
-                        <input className='bg-info p-2 ' type="text" placeholder='Email address' /><span><FiArrowRight></FiArrowRight></span>
+                    <div className='flex items-center border border-primary'>
+                        <input className='bg-info p-2 w-full' type="text" placeholder='Email address' />
                     </div>
                     <div className='flex my-5'>
                         <div>
-                            <input className='bg-info ' type="checkbox" />
+                            <input className='bg-info mr-2 ' type="checkbox" />
                         </div>
                         <div>
                             <p className='text-sm leading-7'>Subscribe to receive communications from Aesop about our products and services. By subscribing, you confirm you have read and accept our
